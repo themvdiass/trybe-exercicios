@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+#imagem1 {
+    width: 350px;
+}
+
+.cavalo-marinho {
+    color: blue;
+}
+
+.paragrafos {
+    background-color: rgb(240, 240, 240);
+    width: 54%;
+    height: 300px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+
+}
