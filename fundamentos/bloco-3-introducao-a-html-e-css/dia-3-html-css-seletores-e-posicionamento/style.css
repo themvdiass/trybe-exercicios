@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    
+}
+
+#body {
+    
+}
+
+
+#portifolio-pai {
+    /* border: 3px rgb(0, 255, 234) solid; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#caixa1 {
+    border: 3px red solid;
+    align-items: top;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+
+}
+
+/* #portifolio {
+    color: white;
+    border: 3px rgb(38, 0, 255) solid;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 30px;
+    width: 100%;
+    height:0%;
+   
+    
+} */
+
+
+#titulo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px blue solid;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#caixa-titulo {
+    border: 3px rgb(9, 255, 0) solid;
+    margin-top: 30px;
+}
+
+#caixa2 {
+    border: 3px red solid;
+}
+
+#subtitulo {
+    font-size: 25px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#caixa-sites {
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    border: 3px yellow solid;
+    
+}
+
+
+#caixa-insta {
+    border-right: 10px white solid;
+
+}
+
+#caixa-git {
+    border-right: 10px white solid;
+}
+
+#caixa-linked {
+
+}
+
+
+#palavra-instagram {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px blue solid;
+}
+
+#palavra-github {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px pink solid;
+}
+
+#palavra-linkedln {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px purple solid;
+}
+
+#caixa-de-fotos {
+    border: 3px red solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#img-1 {
+    width: 170px;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+#img-2 {
+    width: 170px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 100%;
+}
+
+#img-3 {
+    width: 170px;
+    display: inline-block;
+    border-radius: 100%;
+}
