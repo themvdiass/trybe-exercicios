@@ -8,7 +8,7 @@
 }
 
 
-#portifolio-pai {
+#pag-1 {
     /* border: 3px rgb(0, 255, 234) solid; */
     width: 100%;
     height: 100vh;
@@ -17,7 +17,7 @@
 }
 
 #caixa1 {
-    border: 3px red solid;
+    /* border: 3px red solid; */
     align-items: top;
     display: flex;
     justify-content: space-between;
@@ -45,19 +45,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px blue solid;
+    /* border: 3px blue solid; */
     margin-top: 30px;
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
 }
 
 #caixa-titulo {
-    border: 3px rgb(9, 255, 0) solid;
+    /* border: 3px rgb(9, 255, 0) solid; */
     margin-top: 30px;
 }
 
 #caixa2 {
-    border: 3px red solid;
+    /* border: 3px red solid; */
 }
 
 #subtitulo {
@@ -74,18 +74,18 @@
     width: 100%;
     height: 60px;
     margin-top: 30px;
-    border: 3px yellow solid;
-    
+    /* border: 3px yellow solid;
+     */
 }
 
 
 #caixa-insta {
-    border-right: 10px white solid;
+    /* border-right: 10px white solid; */
 
 }
 
 #caixa-git {
-    border-right: 10px white solid;
+    /* border-right: 10px white solid; */
 }
 
 #caixa-linked {
@@ -103,7 +103,7 @@
     text-decoration: none;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-    border: 3px blue solid;
+    /* border: 3px blue solid; */
 }
 
 #palavra-github {
@@ -116,7 +116,7 @@
     text-decoration: none;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-    border: 3px pink solid;
+    /* border: 3px pink solid; */
 }
 
 #palavra-linkedln {
@@ -129,11 +129,11 @@
     text-decoration: none;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-    border: 3px purple solid;
+    /* border: 3px purple solid; */
 }
 
 #caixa-de-fotos {
-    border: 3px red solid;
+    /* border: 3px red solid; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -159,4 +159,106 @@
     width: 170px;
     display: inline-block;
     border-radius: 100%;
+}
+
+#pag-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(223, 223, 223);
+    /* border: 3px rgb(0, 54, 49) solid; */
+}
+
+#caixa-apresent {
+    /* border: 3px blue solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#txt-box {
+    /* border: 3px orange solid; */
+    margin-left: 30px;
+    margin-top: 90px;
+    
+}
+
+#apresent-1 {
+    /* border: 3px yellow solid; */
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#apresent-2 {
+    /* border: 3px rgb(255, 0, 170) solid; */
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#nome {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+#apresent-3 {
+    /* border: 3px rgb(255, 0, 0) solid; */
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#site-trybe {
+    text-decoration: none;
+    color: rgb(0, 141, 82);
+}
+
+#apresent-4 {
+    /* border: 3px rgb(60, 255, 0) solid; */
+    margin-left: 20px;
+}
+
+#apresent-5 {
+    /* border: 3px rgb(251, 255, 0) solid; */
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#lista-q {
+    /* border: 3px rgb(102, 104, 21) solid; */
+    margin-top: 40px;
+}
+
+.list {
+    text-decoration: none;
+    /* border: 3px rgb(104, 21, 21) solid; */
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+}
+
+#img-trybe {
+    /* border: 3px red solid; */
+    display: block;
+    margin-top: 75px;
+}
+
+#img-trybe-1 {
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-right: 100px;
+}
+
+#img-trybe-2 {
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+#img-trybe-3 {
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-right: 100px;
+    margin-top: 30px;
 }
