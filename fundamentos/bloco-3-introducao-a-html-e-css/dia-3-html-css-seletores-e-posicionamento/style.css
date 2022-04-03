@@ -93,6 +93,18 @@
 
 }
 
+#palavra-sobre-mim {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    /* border: 3px pink solid; */
+}
 
 #palavra-instagram {
     color: rgb(0, 0, 0);
