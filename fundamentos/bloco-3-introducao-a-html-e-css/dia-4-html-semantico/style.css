@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    /* border: 3px blue solid; */
+    display: inline-block;
+    justify-content;
+    border-top: 20px black solid;
+}
+
+#header {
+    margin-top: 40px;
+    /* border: 3px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+#titulo-1 {
+    /* border: 3px green solid; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    
+}
+
+#links {
+    margin-top: 20px;
+    /* border: 3px pink solid; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.links {
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#pag-inicial {
+    border: 3px #ffa723 solid;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: #ffa723;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+
+
+#sobre {
+    border: 3px rgb(0, 0, 0) solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+
+#contato {
+    border: 3px rgb(0, 0, 0) solid;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+#main {
+    /* border: 3px green solid; */
+}
+
+#article {
+    /* border: 3px rgb(128, 0, 107) solid; */
+}
+
+#section-1 {
+    /* border: 3px rgb(128, 0, 0) solid; */
+    display: contents;
+    align-items: center ;
+}
+
+#tit-1 {
+    /* border: 3px rgb(0, 124, 128) solid; */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+#subtitulo-1 {
+    /* border: 3px rgb(255, 3, 3) solid; */
+    text-align: left;
+    background-color: rgb(226, 226, 226);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin-left: 50px;
+   
+}
+
+#table {
+    margin-top: 10px;
+    margin-left: 50px;
+    /* border: 1px black solid; */
+    background-color: rgb(255, 255, 255);
+    width: %;
+    text-align: left; 
+}
+
+#caixa-1 {
+    /* border: 3px rgb(0, 92, 128) solid;; */
+    display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    border-top: 50px;
+    background-color: rgb(226, 226, 226);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#img-1 {
+    border-radius: 100%;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    width: 250px;
+    margin-right: 40px;
+    /* -webkit-mask-image: linear-gradient(to top, transparent 5%, black 40%); */
+    border: 5px #ffffff solid;
+
+    
+}
+
+.it {
+    /* border: 1px black solid; */
+    background-color: #ffa723;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.it-2 {
+    /* border: 1px rgb(0, 0, 0) solid; */
+    background-color: #ffdca8;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#section-2 {
+    /* border: 3px red solid; */
+    /* margin-top: 50px; */
+    background-color: rgb(255, 255, 255);
+    /* padding-bottom: 50px;
+     */
+     display: flex;
+     align-items: center;
+     justify-content: space-between; 
+     width: 100%;
+}
+ 
+#img-2 {
+    width: 150px;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+#section-3 {
+    /* border: 3px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    align-items: center;
+}
+
+#caixa-section-3 {
+    /* border: 3px red solid; */
+}
+
+#par-meio {
+    /* border: 3px red solid; */
+    width: 80%;
+   
+}
+
+#img-3 {
+    width: 150px;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.subtitulo {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    
+}
+
+.par {
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+#subtitulo-2 {
+    text-align: left;
+    
+}
+
+#par-1 {
+    text-align: left;
+
+}
+
+.section-s {
+    background-color: rgb(226, 226, 226);
+    /* padding-bottom: 50px; */
+    padding-top: 5px;
+}
+
+.section-n {
+    /* padding-bottom: 50px; */
+}
+
+#referencias {
+    padding-bottom: 50px;
+}
+
+
+#link-ref {
+    text-decoration: none;
+    color: #ee9208 ;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+#ref {
+    /* padding-bottom: 40px;
+    padding-top: 25px; */
+    margin-left: 50px;
+    margin-top: 25px;
+    border: 3px #ee9208 solid;
+    width: 55px;
+    height: 20px;
+    padding: 5px;
+       
+
+}
+
+#saiba-mais {
+    height: 200px;
+}
+
+#caixa-saiba-mais {
+    /* border: 3px red solid; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: inline-block;
+    margin-left: 50px;
+    list-style: none;
+}
+
+
+#fatos-sobre {
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #ee9208;
+    border: 3px #ee9208 solid;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+    padding: 5px;
+    text-align: center;
+}
+
+#wiki {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #ee9208;
+    border: 3px #ee9208 solid;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+    padding: 5px;
+    text-align: center;
+}
+
+#footer {
+    font-size: 13px;
+    display: flex;
+    justify-content: right;
+}
