@@ -56,3 +56,21 @@ if(angUm + angDois + angTres == triangulo) {
 } else {
   console.log(false)
 }
+
+const peca = "torre";
+if(peca == "peão") {
+  console.log("Uma casa pra frente")
+} else if (peca == "torre") {
+  console.log("Vertical e horizontal")
+} else if (peca == "bispo") {
+  console.log("Diagonal") 
+} else if (peca == "cavalo") {
+    console.log("Em L")
+} else if (peca == "rei") {
+  console.log("Uma casa para cada direção")
+} else if (peca == "rainha") {
+  console.log("Em qual quer direção")
+} else { 
+  console.log("Peça Inválida")
+}
+
