@@ -101,3 +101,13 @@ if(numeroUm % 2 == 0 || numeroDois % 2 == 0 || numeroTres
   console.log(false)
 }
 
+const numeralUm = 6;
+const numeralDois = 5;
+const numeralTres = 44;
+if(numeralUm % 2 > 0 || numeralDois % 2 > 0 || numeralTres
+ % 2 > 0) {
+  console.log(true)
+} else {
+  console.log(false)
+}
+
