@@ -10,3 +10,10 @@ console.log(menuServices);
 let menuDois = ['Home', 'Serviços', 'Portfólio', 'Links'];
 let indexOfPortfolio =  menuDois.indexOf('Portfólio');
 console.log(indexOfPortfolio);
+
+
+// Exercicio 3 [Array]
+
+let menuTres = ['Home', 'Serviços', 'Portfólio', 'Links'];
+menuTres.push('Contato')
+console.log(menuTres);
