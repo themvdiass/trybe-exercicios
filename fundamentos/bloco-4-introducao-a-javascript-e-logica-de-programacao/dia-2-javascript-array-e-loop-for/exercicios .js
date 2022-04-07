@@ -8,19 +8,27 @@
 
 // Exercicio 2
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let resultado = 0;
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let resultado = 0;
 
-for(index = 0; index < numbers.length; index += 1) {
-  resultado += numbers[index]
-}
+// for(index = 0; index < numbers.length; index += 1) {
+//   resultado += numbers[index]
+// }
 
 // console.log(resultado);
 
 // Exercicio 3
 
-// let contagem = numbers.length;
-// console.log((numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] + numbers[6] + numbers[7]+ numbers[8] + numbers[9]) / contagem);
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+let contagem = numbers.length;
+let resultado = 0;
+
+for(let index = 0; index < numbers.length; index += 1) {
+  resultado += numbers[index] / contagem
+};
+
+console.log(resultado)
 
 // Exercicio 4
 
