@@ -57,18 +57,18 @@ if(angUm + angDois + angTres == triangulo) {
   console.log(false)
 }
 
-const peca = "torre";
-if(peca == "peão") {
+const peca = "Bispo";
+if(peca.toLowerCase() == "peão") {
   console.log("Uma casa pra frente")
-} else if (peca == "torre") {
+} else if (peca.toLowerCase() == "torre") {
   console.log("Vertical e horizontal")
-} else if (peca == "bispo") {
+} else if (peca.toLowerCase() == "bispo") {
   console.log("Diagonal") 
-} else if (peca == "cavalo") {
+} else if (peca.toLowerCase() == "cavalo") {
     console.log("Em L")
-} else if (peca == "rei") {
+} else if (peca.toLowerCase() == "rei") {
   console.log("Uma casa para cada direção")
-} else if (peca == "rainha") {
+} else if (peca.toLowerCase() == "rainha") {
   console.log("Em qual quer direção")
 } else { 
   console.log("Peça Inválida")
@@ -109,5 +109,19 @@ if(numeralUm % 2 > 0 || numeralDois % 2 > 0 || numeralTres
   console.log(true)
 } else {
   console.log(false)
+}
+
+const custo = 50;
+const venda = 100;
+let quantidade = 9;
+let valorCusto = custo * quantidade;
+const porCento = valorCusto * 0.20;
+let lucroBruto = venda * quantidade;
+let valorCustoTotal =  valorCusto + porCento;
+let lucroLiquido = lucroBruto - valorCustoTotal;
+if(quantidade > 0) {
+  console.log(lucroLiquido)
+} else {
+  console.log("Erro! Quantidade insuficiente")
 }
 
