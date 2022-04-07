@@ -17,3 +17,10 @@ console.log(indexOfPortfolio);
 let menuTres = ['Home', 'Serviços', 'Portfólio', 'Links'];
 menuTres.push('Contato')
 console.log(menuTres);
+
+// Exercicio 1 [For]
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+for(let index = 0; index < groceryList.lengh; index++) {
+  console.log(groceryList[index])
+}
