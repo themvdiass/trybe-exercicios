@@ -44,3 +44,15 @@ if(numero > 0) {
   console.log("zero")
 }
 
+const angUm = -80;
+const angDois = 40;
+const angTres = 60;
+const triangulo = 180;
+
+if(angUm + angDois + angTres == triangulo) {
+  console.log(true)
+} else if (angUm < 0 || angDois < 0 || angTres < 0) {
+  console.log("Erro! Ângulo inválido")
+} else {
+  console.log(false)
+}
