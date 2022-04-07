@@ -90,9 +90,18 @@
 
 // Exercicio 8
 
+// resultado = [];
+// for(let index = 0; index < 26; index += 1) {
+//   resultado.push(index)
+// };
+
+// console.log(resultado);
+
+// Exercicio 9
+
 resultado = [];
 for(let index = 0; index < 26; index += 1) {
-  resultado.push(index)
+  resultado.push(index / 2)
 };
 
 console.log(resultado);
