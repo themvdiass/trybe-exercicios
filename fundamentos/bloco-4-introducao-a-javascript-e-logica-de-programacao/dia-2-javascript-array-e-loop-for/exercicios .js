@@ -32,23 +32,31 @@
 
 // Exercicio 4
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let contagem = numbers.length;
-let resultado = 0;
+// let contagem = numbers.length;
+// let resultado = 0;
 
-for(let index = 0; index < numbers.length; index += 1) {
-  resultado += numbers[index] / contagem
-};
+// for(let index = 0; index < numbers.length; index += 1) {
+//   resultado += numbers[index] / contagem
+// };
 
-if(resultado > 20) {
-  console.log("É maior que 20")
-} else { 
-  console.log("É menor que 20")
-}
+// if(resultado > 20) {
+//   console.log("É maior que 20")
+// } else { 
+//   console.log("É menor que 20")
+// }
 
 //Exercicio 5
 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numeroMaior = numbers[0];
+for(let index = 1; index < numbers.length; index += 1) {
+  if(numbers[index] > numeroMaior) {
+    numeroMaior = numbers[index]
+  }
+}
 
+console.log(numeroMaior);
 
 
