@@ -19,6 +19,19 @@
 
 // Exercicio 3
 
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// let contagem = numbers.length;
+// let resultado = 0;
+
+// for(let index = 0; index < numbers.length; index += 1) {
+//   resultado += numbers[index] / contagem
+// };
+
+// console.log(resultado)
+
+// Exercicio 4
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let contagem = numbers.length;
@@ -28,17 +41,11 @@ for(let index = 0; index < numbers.length; index += 1) {
   resultado += numbers[index] / contagem
 };
 
-console.log(resultado)
-
-// Exercicio 4
-
-// let total = [];
-// total.push((numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] + numbers[6] + numbers[7]+ numbers[8] + numbers[9]) / contagem);
-// if(total > 20) {
-//   console.log("Valor maior que 20")
-// } else {
-//   console.log("Valor menor que 20")
-// };
+if(resultado > 20) {
+  console.log("É maior que 20")
+} else { 
+  console.log("É menor que 20")
+}
 
 //Exercicio 5
 
