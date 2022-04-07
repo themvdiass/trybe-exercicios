@@ -91,3 +91,13 @@ if(nota >= 90 && nota <= 100) {
   console.log("ERROR")
 }
 
+const numeroUm = 3;
+const numeroDois = 5;
+const numeroTres = 44;
+if(numeroUm % 2 == 0 || numeroDois % 2 == 0 || numeroTres
+ % 2 == 0) {
+  console.log(true)
+} else {
+  console.log(false)
+}
+
