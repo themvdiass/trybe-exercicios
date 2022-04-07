@@ -24,3 +24,10 @@ let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 for(let index = 0; index < groceryList.lengh; index++) {
   console.log(groceryList[index])
 }
+
+// Exercicio 1 [For/of]
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for(let name of names) {
+  console.log(name)
+}
