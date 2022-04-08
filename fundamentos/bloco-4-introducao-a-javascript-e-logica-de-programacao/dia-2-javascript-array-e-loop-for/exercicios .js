@@ -1,10 +1,10 @@
-// Exercicio 1
+Exercicio 1
 
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-// for(let index = 0; index < numbers.length; index += 1) {
-//   console.log(numbers[index]);
-// }
+for(let index = 0; index < numbers.length; index += 1) {
+  console.log(numbers[index]);
+}
 
 // Exercicio 2
 
@@ -99,9 +99,9 @@
 
 // Exercicio 9
 
-resultado = [];
-for(let index = 0; index < 26; index += 1) {
-  resultado.push(index / 2)
-};
+// resultado = [];
+// for(let index = 0; index < 26; index += 1) {
+//   resultado.push(index / 2)
+// };
 
-console.log(resultado);
+// console.log(resultado);
