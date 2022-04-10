@@ -44,15 +44,16 @@
 let maiorPrimo = 0;
 
 for(let index = 2; index < 51; index += 1) {
-  let numerosPossiveis = [];
+  let numerosPossiveis = 0;
   for(let divisor = 1; divisor <= index; divisor += 1) {
     if(index % divisor == 0) {
-      numerosPossiveis.push(index / divisor)
+      numerosPossiveis += 1
     }
   }
-  if(numerosPossiveis.length == 2) {
-    maiorPrimo = numerosPossiveis[0]
-  }  
+  if(numerosPossiveis == 2 && index > maiorPrimo) {
+    maiorPrimo = index
+  } 
+   
 }
 
 console.log(maiorPrimo)
