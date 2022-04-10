@@ -41,18 +41,18 @@
 
 // Exercicio 4
 
-let maiorNumero = 0;
+let maiorPrimo = 0;
 
-for (let primeiroNumero = 0; primeiroNumero <= 50; primeiroNumero += 1) {
-  let primo = true;
-  for (let divisor = 2; divisor < primeiroNumero; divisor += 1) {
-    if (primeiroNumero % divisor === 0) {
-      primo = false;
+for(let index = 2; index < 51; index += 1) {
+  let numerosPossiveis = [];
+  for(let divisor = 1; divisor <= index; divisor += 1) {
+    if(index % divisor == 0) {
+      numerosPossiveis.push(index / divisor)
     }
   }
-  if(primo) {
-    maiorNumero = primeiroNumero;
-  }
+  if(numerosPossiveis.length == 2) {
+    maiorPrimo = numerosPossiveis[0]
+  }  
 }
 
-console.log(maiorNumero);
+console.log(maiorPrimo)
