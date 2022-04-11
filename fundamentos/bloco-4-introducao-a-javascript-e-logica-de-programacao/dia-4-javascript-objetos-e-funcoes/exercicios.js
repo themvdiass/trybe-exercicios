@@ -1,12 +1,12 @@
-// Exercicio 1
+Exercicio 1
 
-// let info = {
-//   personagem: 'Margarida',
-//   origem: 'Pato Donald',
-//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-// };
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+};
 
-// console.log('Bem-vinda' + ' ' + info.personagem);
+console.log('Bem-vinda' + ' ' + info.personagem);
 
 // Exercicio 2
 
@@ -112,22 +112,22 @@
 
 // Exercicio 8
 
-let leitor = {
-  nome: 'Julia',
-  sobrenome: 'Pessoa',
-  idade: 21,
-  livrosFavoritos: [
-    {
-      titulo: 'O Pior Dia de Todos',
-      autor: 'Daniela Kopsch',
-      editora: 'Tordesilhas',
-    },
-    {
-      titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-      autor: 'JK Rowling',
-      editor: 'Rocco',
-    },
-  ],
-};
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos: [
+//     {
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//     {
+//       titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//       autor: 'JK Rowling',
+//       editor: 'Rocco',
+//     },
+//   ],
+// };
 
-console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos.')
+// console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos.')
