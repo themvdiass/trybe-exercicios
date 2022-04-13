@@ -14,3 +14,6 @@ document.querySelector('#section1').style.backgroundColor = 'white';
 
 document.querySelector('.title').innerText = 'Exercício 5.1 - JavaScript';
 
+// 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+
+document.querySelector('#meuTexto').innerText = document.querySelector('#meuTexto').innerText.toUpperCase();
