@@ -10,4 +10,7 @@ document.querySelector('#mainColor').style.backgroundColor = 'green';
 
 document.querySelector('#section1').style.backgroundColor = 'white';
 
+// 4. Crie uma função que corrija o texto da tag <h1>.
+
+document.querySelector('.title').innerText = 'Exercício 5.1 - JavaScript';
 
