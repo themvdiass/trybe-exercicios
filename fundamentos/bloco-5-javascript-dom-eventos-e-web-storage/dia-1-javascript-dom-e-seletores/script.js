@@ -6,3 +6,8 @@ document.getElementById("meuTexto").innerText = "Me vejo trabalhando com program
 
 document.querySelector('#mainColor').style.backgroundColor = 'green';
 
+// 3. Crie uma função que mude a cor do quadrado vermelho para branco.
+
+document.querySelector('#section1').style.backgroundColor = 'white';
+
+
