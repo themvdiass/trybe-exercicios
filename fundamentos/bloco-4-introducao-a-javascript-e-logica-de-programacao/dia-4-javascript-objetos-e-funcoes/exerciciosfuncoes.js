@@ -16,14 +16,16 @@
 //Exercicio 2
 //Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 
-function maiorIndice (array) {
-  let maiorNumero = 0;
-  for (index in array) {
-    if (array[maiorNumero] < array[index]) {
-      maiorNumero = index 
-    } 
-  }
-  return maiorNumero
-}
+// function maiorIndice (array) {
+//   let maiorNumero = 0;
+//   for (index in array) {
+//     if (array[maiorNumero] < array[index]) {
+//       maiorNumero = index 
+//     } 
+//   }
+//   return maiorNumero
+// }
 
-console.log(maiorIndice([2, 3, 6, 7, 10, 1]))
+// console.log(maiorIndice([2, 3, 6, 7, 10, 1]))
+
+
