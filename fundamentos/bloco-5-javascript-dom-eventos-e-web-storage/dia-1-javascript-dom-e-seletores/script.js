@@ -16,4 +16,8 @@ document.querySelector('.title').innerText = 'Exercício 5.1 - JavaScript';
 
 // 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 
-document.querySelector('#meuTexto').innerText = document.querySelector('#meuTexto').innerText.toUpperCase();
+document.getElementById('meuTexto').innerText = document.getElementById('meuTexto').innerText.toUpperCase();
+
+// 6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+
+console.log(document.getElementById("section1").innerText);

@@ -8,10 +8,6 @@ main, section {
   text-align: center;
 }
 
-#mainColor {
-  border: 3px blue solid;
-}
-
 .main-content {
   background-color: yellow;
 }
