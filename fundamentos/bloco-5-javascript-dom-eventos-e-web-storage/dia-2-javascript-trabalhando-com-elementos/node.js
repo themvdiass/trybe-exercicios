@@ -67,3 +67,14 @@ lista.appendChild(nomes('Oito'))
 lista.appendChild(nomes('Nove'))
 lista.appendChild(nomes('Dez'))
 
+// Exercicio 9
+
+function criarH3 (nome) {
+  let h3 = document.createElement('h3')
+  h3.id = nome
+  return h3
+}
+
+main.appendChild(criarH3('h3-1'))
+main.appendChild(criarH3('h3-2'))
+main.appendChild(criarH3('h3-3'))
