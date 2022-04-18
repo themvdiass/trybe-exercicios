@@ -13,3 +13,8 @@ const main = document.createElement('main')
 main.id = 'main'
 body.appendChild(main)
 
+// Exercicio 3
+
+const section = document.createElement('section')
+section.className = 'center-content'
+body.appendChild(section)
