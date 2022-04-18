@@ -32,3 +32,9 @@ const section2 = document.createElement('section')
 section2.className = "left-content"
 main.appendChild(section2)
 
+// Exercicio 6
+
+const section3 = document.createElement('section')
+section3.className = "right-content"
+main.appendChild(section3)
+
