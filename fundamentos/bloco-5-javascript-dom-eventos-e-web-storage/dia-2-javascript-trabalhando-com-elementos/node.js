@@ -26,4 +26,9 @@ parag.id = "parag1"
 parag.innerText = "Este é um parágrafo vazio"
 section.appendChild(parag)
 
+// Exercicio 5
+
+const section2 = document.createElement('section')
+section2.className = "left-content"
+main.appendChild(section2)
 
