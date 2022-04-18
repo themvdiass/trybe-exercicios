@@ -45,5 +45,25 @@ img.src = "https://picsum.photos/200"
 img.className = "small-image"
 section2.appendChild(img)
 
+// Exercicio 8
 
+const lista = document.createElement('ul')
+section3.appendChild(lista)
+
+function nomes (string) {
+  const num = document.createElement('li')
+  num.innerText = string
+  return num
+}
+
+lista.appendChild(nomes('Um'))
+lista.appendChild(nomes('Dois'))
+lista.appendChild(nomes('Três'))
+lista.appendChild(nomes('Quatro'))
+lista.appendChild(nomes('Cinco'))
+lista.appendChild(nomes('Seis'))
+lista.appendChild(nomes('Sete'))
+lista.appendChild(nomes('Oito'))
+lista.appendChild(nomes('Nove'))
+lista.appendChild(nomes('Dez'))
 
