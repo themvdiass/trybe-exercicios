@@ -18,3 +18,12 @@ body.appendChild(main)
 const section = document.createElement('section')
 section.className = 'center-content'
 body.appendChild(section)
+
+// Exercicio 4
+
+const parag = document.createElement('p')
+parag.id = "parag1"
+parag.innerText = "Este é um parágrafo vazio"
+section.appendChild(parag)
+
+
