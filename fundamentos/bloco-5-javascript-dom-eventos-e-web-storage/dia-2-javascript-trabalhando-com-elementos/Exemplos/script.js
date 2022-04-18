@@ -42,7 +42,7 @@ console.log(' ')
 
 let div1 = document.createElement('div')
 div1.id = "div1"
-div1.innerText = "Novo Texto"
+div1.innerText = "Novo Texto 2"
 eP.appendChild(div1)
 
 // Exemplo 2
@@ -61,6 +61,21 @@ document.getElementById('primeiroFilhoDoFilho').appendChild(div3)
 
 console.log(div3.parentElement.parentElement.nextElementSibling)
 
+console.log(' ')
+
+// Parte 3
+
+// Exemplo 1
+
+document.querySelector('#terceiroFilho').remove()
+
+document.querySelector('#primeiroFilho').remove()
+
+document.querySelector('#quartoEUltimoFilho').remove()
+
+document.querySelector('#segundoEUltimoFilhoDoFilho').remove()
+
+document.querySelector('#div1').remove()
 
 
 
