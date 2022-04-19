@@ -20,10 +20,15 @@ function createDaysOfTheMonth () {
   for (let index = 0; index < dezDaysList.length; index += 1) {
   let dia = dezDaysList[index];
   let criar = document.createElement('li');
-  
-  if (dia == 24 || dia == 25 || dia == 31) {
-    criar.className = 'day holiday'
-  } else if (criar.className = 'day')
+  criar.className = 'day'
+
+  if (dia == 24 || dia == 31) {
+    criar.className += ' ' + 'holiday'
+  } else if (dia == 4 || dia == 11 || dia == 18) {
+    criar.className += ' ' + 'friday'
+  } else if (dia == 25) {
+    criar.className += ' ' + 'holiday' + ' ' + 'friday'
+  } else (criar.className = 'day') 
 
   criar.innerText = dia;
   days.appendChild(criar)
