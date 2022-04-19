@@ -48,5 +48,17 @@ function feriados (feriados) {
 
 feriados('Feriados')
 
+function sexta (string) {
+  let div1 = document.querySelector('.buttons-container')
+
+  const bot = document.createElement('button')
+  bot.id = "btn-holiday" 
+  bot.innerText = string
+  div1.appendChild(bot) 
+}
+
+feriados('Sexta-Feira')
+
+
 
 
