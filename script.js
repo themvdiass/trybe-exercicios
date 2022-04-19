@@ -55,11 +55,11 @@ function sexta (string) {
   bot.id = "btn-holiday" 
   bot.innerText = string
   div1.appendChild(bot) 
-
-  bot.addEventListener('click', )
 }
 
 sexta('Sexta-Feira')
+
+
 
 
 
