@@ -6,6 +6,7 @@
 }
 
 .botStyle {
+  cursor: pointer;
   border-radius: 100%;
   width: 20px;
   height: 20px;
@@ -39,11 +40,13 @@
 }
 
 #tamanho {
+  cursor: pointer;
   font-size: 30px;
   margin-left: 10px;
 }
 
 #tamanhoM {
+  cursor: pointer;
   font-size: 30px;
   margin: 10px;
 }
