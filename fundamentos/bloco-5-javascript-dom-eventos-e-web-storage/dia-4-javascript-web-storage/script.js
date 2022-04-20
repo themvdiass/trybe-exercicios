@@ -51,7 +51,7 @@ txt.style.fontSize = tam + pix
 bot.appendChild(tT)
 
 function aumentaLetra () {
-  tam += 10;
+  tam += 5;
   txt.style.fontSize = tam + pix
 }
 
@@ -64,9 +64,11 @@ txt.style.fontSize = tam + pix
 bot.appendChild(tM)
 
 function diminuiLetra () {
-  tam -= 10;
+  tam -= 5;
   txt.style.fontSize = tam + pix
 }
 
 tM.addEventListener('click' , diminuiLetra)
+
+
 
