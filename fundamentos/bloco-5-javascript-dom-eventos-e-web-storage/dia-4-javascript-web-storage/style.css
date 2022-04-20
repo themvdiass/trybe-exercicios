@@ -1,0 +1,49 @@
+#caixaBot {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  /* border: 3px solid red; */
+}
+
+.botStyle {
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+}
+
+
+.colorWhite {
+  background-color: white;
+}
+
+.darkMode {
+  background-color: rgb(54, 54, 54);
+}
+
+.sumir {
+  display: none;
+}
+
+.textos {
+  color: black;
+}
+
+.textoB {
+  color: white;
+}
+
+#p1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#tamanho {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#tamanhoM {
+  font-size: 30px;
+  margin: 10px;
+}
