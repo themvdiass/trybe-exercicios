@@ -1,0 +1,115 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+#label1 {
+  display: flex;
+  color: gray;
+  align-items: center;
+}
+
+#form {
+  margin-top: 50px;
+  border: 3px solid black;
+  padding: 20px 200px 20px 20px;
+}
+
+.section {
+  margin-right: 5px;
+  font-size:  20px;
+  color: gray;
+}
+
+#inputNome {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+#label2 {
+  display: flex;
+  color: gray;
+  align-items: center;
+}
+
+#inputEmail {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+#opcoes {
+  display: flex;
+  margin-top: 10px;
+}
+
+.labelOptions {
+  display: flex;
+  align-items: center;
+}
+
+.p {
+  margin-left: 5px;
+  margin-right: 10px;
+  color: gray;
+}
+
+#resposta {
+  font-size: 20px;
+  margin-top: 10px;
+  color: gray;
+}
+
+#textarea {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#inputDate {
+  display: flex;
+  margin-top: 10px;
+}
+
+#concordo {
+  margin-top: 10px;
+  display: flex;
+}
+
+#concordo1 {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  color: gray;
+}
+
+#pconcordo1 {
+  margin-right: 5px;
+}
+
+#pconcordo2 {
+  margin-right: 5px;
+}
+
+#concordo2 {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+#bf {
+  display: flex;
+  margin-top: 10px;
+}
+
+.bsub {
+  color: gray;
+  border: 1px gray solid;
+  margin-right: 10px;
+  padding: 5px 25px;
+  font-size: 15px;
+  border-radius: 8px;
+}
