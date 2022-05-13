@@ -23,18 +23,18 @@ console.log(initialSum(5));
 
 // Exercicio fixação
 
-const wakeUp = () => {
-  return 'Acordando!!';
+const wakeUp = (nome) => {
+  return nome + ' Acordando!!';
 }
 
-const comendo = () => {
-  return 'Bora tomar café!!';
+const comendo = (nome) => {
+  return nome + ' Bora tomar café!!';
 }
 
-const dormir = () => {
-  return 'Partiu dormir!!';
+const dormir = (nome) => {
+  return nome + ' Partiu dormir!!';
 }
 
-const doingThings = (func) => console.log(func());
+const doingThings = (func) => console.log(func('Teste,'));
 
-doingThings(wakeUp);
+doingThings(wakeUp); 
