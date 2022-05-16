@@ -63,14 +63,7 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-function comparar(a, b) {
-  if (a.releaseYear > b.releaseYear) {
-    return -1;
-  }
-  if (a > b) {
-    return 1;
-  }
-  return 0;
-}
+const todosSeculoXX = () => books.every( (obj) => obj.author.birthYear > 1900)
 
-console.log(books.sort(comparar));
+
+console.log(todosSeculoXX());
