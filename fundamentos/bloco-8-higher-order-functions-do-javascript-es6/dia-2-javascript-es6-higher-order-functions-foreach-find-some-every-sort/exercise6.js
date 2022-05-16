@@ -55,7 +55,7 @@ const books = [
     genre: 'Terror',
     author: {
       name: 'H. P. Lovecraft',
-      birthYear: 1890,
+      birthYear: 1690,
     },
     releaseYear: 1928,
   },
@@ -63,6 +63,6 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-const todosSeculoXX = () => books.every( (obj) => obj.author.birthYear > 1900)
+const todosSeculoXX = () => books.some( (obj) => obj.releaseYear > 1979 && obj.releaseYear < 1990)
 
 console.log(todosSeculoXX());
