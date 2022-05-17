@@ -61,8 +61,13 @@ const books = [
   },
 ];
 
-// 1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+// 4 - Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
 
-const formatedBookNames = (array) =>array.map( (book) => `${book.name.toUpperCase()}  -  ${book.genre.toUpperCase()}  -  ${book.author.name.toUpperCase()}`)
-
-console.log(formatedBookNames(books))
+const ordenar = () => {
+  return books.filter( (book) => {
+   return book.releaseYear < 1961
+  }).sort( (par1, par2) => {
+    return par1.releaseYear - par2.releaseYear
+  })
+}
+console.log(ordenar())
