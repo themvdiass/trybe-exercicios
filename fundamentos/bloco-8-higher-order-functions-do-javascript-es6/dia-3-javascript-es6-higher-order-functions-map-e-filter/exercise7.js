@@ -62,14 +62,9 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-// 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+// 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
-const livros = () => {
-  return books.filter( (book) => {
-    return book.releaseYear < 1962
-  }).map( (obj) => {
-    return obj.name
-  })
-}
+const iniciais = () => books.find( (obj) => obj.author.name[1] === '.' && obj.author.name[4] === "." && obj.author.name[7] === "." ).name
 
-console.log(livros())
+
+console.log(iniciais())
