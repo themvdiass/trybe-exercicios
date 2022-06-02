@@ -1,7 +1,9 @@
 const API_URL = "https://api.coincap.io/v2/assets";
 
 function criarLi(info) {
- info.map((moeda) => {
+  info
+  .filter((coin) => Number(coin.rank) <= 10)
+  .map((moeda) => {
     const ul = document.querySelector('ul');
 
     const li = document.createElement('li');
