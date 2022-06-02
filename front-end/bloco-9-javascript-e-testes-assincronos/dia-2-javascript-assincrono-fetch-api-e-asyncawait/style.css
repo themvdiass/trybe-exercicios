@@ -1,0 +1,25 @@
+body {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  font-family: 'Koulen', cursive;
+}
+
+h1 {
+  color: white;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+#ul {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}

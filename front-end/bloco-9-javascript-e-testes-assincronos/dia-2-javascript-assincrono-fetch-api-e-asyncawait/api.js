@@ -26,8 +26,6 @@ async function fetchCoin() {
 
     const dataAtt = data.data;
 
-    console.log(dataAtt);
-
     criarLi(dataAtt);
 
   } catch (error) {
